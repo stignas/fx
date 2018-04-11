@@ -1,2 +1,2 @@
-# test
-my first repository
+# Fx Trading
+Blog
