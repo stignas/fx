@@ -1,3 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport content="width=device-width, initial-scale=1">
+<style>
+* {
+   box-sizing: border-box;
+ }
+.column {
+ float: left;
+ width: 50%;
+ padding: 10px;
+}
+                                                                  
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+              </style>
+              </head>
+              
+<body>
+              <h2>Daily FX</h2>     
+<div class="row">
+<div class="column">
+                   <h4> Economic Calendar </h4>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/economic-calendar/" rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span> by TradingView</a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+  {
+  "width": "510",
+  "height": "600",
+  "locale": "en",
+  "importanceFilter": "1",
+  "currencyFilter": "USD,AUD,CAD,EUR,FRF,DEM,ITL,JPY,GBP,NZD"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+</div>
+
+<div class="column">
+                   <h4>FX Change</h4>
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
@@ -279,3 +325,8 @@
   </script>
 </div>
 <!-- TradingView Widget END -->
+</div>
+</div>
+
+                        </body>
+                        </html>
